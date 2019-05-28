@@ -1,0 +1,30 @@
+{
+  "name": "hp-process",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "fixf": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rub21/hp-process.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rub21/hp-process/issues"
+  },
+  "homepage": "https://github.com/Rub21/hp-process#readme",
+  "dependencies": {
+    "async-csv": "^2.0.0",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "csvtojson": "^2.0.8",
+    "minimist": "^1.2.0",
+    "p-iteration": "^1.1.8"
+  }
+}
