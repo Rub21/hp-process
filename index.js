@@ -7,7 +7,7 @@ fs.readdir(path, function (err, items) {
         for (let i = numFiles; i < items.length; i++) {
             const imagenNumber = items[i].split('.')[0].replace('_Cam3', '').replace('_Cam1', '');
             if (Number(imagenNumber)) {
-                //fs.unlinkSync(items[i]);
+                fs.unlinkSync(items[i]);
                 console.log(`File ${items[i]} deleted!`);
             }
         }
